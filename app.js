@@ -45,8 +45,8 @@ app.post('/failure', function (req, res) {
     res.redirect('/');
 });
 
-app.listen(port || herokuPort, function () {
-    console.log(`Listening on port ${port}...`);
+app.listen(localPort || herokuPort, function () {
+    console.log(`Listening on port ${localPort}...`);
 });
 
 function getMailChimpPostUrl() {
