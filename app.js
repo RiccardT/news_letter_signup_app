@@ -45,7 +45,7 @@ app.post('/failure', function (req, res) {
     res.redirect('/');
 });
 
-app.listen(localPort || herokuPort, function () {
+app.listen(process.env.PORT || 3000, function () {
     if (herokuPort) {
         console.log(`Listening on port ${herokuPort}...`);
         return;
