@@ -86,16 +86,3 @@ function createMailChimpPayload(firstName, lastName, email) {
     return JSON.stringify(payload);
 };
 
-// function createHtmlFrom(userData) {
-//     let html = `
-//     <h1>${userData.firstName}</h1>
-//     <h1>${userData.lastName}</h1>
-//     <h2>${userData.email}</h2>
-//     `;
-//     return html;
-// };
-
-
-// API: 00d5787fcd9731edf08bbaa6fa5dff01-us20
-// List ID: 18a3615c3f
-
